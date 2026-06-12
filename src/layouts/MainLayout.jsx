@@ -140,7 +140,7 @@ function MainLayout({ children }) {
           mt: 8,
           ml: isMobile ? 0 : `${DRAWER_WIDTH}px`,
           minHeight: '100vh',
-          bgcolor: 'grey.50',
+          bgcolor: 'background.default',
         }}
       >
         {children}

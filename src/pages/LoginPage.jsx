@@ -47,7 +47,7 @@ function LoginPage() {
       justifyContent="center"
       alignItems="center"
       minHeight="100vh"
-      bgcolor="grey.100"
+      bgcolor="background.default"
       p={2}
     >
       <Paper elevation={4} sx={{ p: 4, width: '100%', maxWidth: 420, borderRadius: 3 }}>
