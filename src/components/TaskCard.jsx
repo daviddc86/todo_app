@@ -33,7 +33,6 @@ function TaskCard({ task, onComplete, onEdit, onDelete }) {
           <Typography
             variant="h6"
             sx={{
-              textDecoration: task.completed ? 'line-through' : 'none',
               color: task.completed ? 'text.secondary' : 'text.primary',
               fontSize: '1rem',
               fontWeight: 600,
