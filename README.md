@@ -33,6 +33,12 @@ npm run dev
 # Accede en http://localhost:5173
 ```
 
+## Tests
+
+```bash
+# Ejecutar todos los tests
+npm test
+
 ## Build producción
 
 ```bash
