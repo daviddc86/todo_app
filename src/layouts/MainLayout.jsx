@@ -42,7 +42,7 @@ function MainLayout({ children }) {
       <Toolbar>
         <TaskAltIcon sx={{ mr: 1, color: 'primary.main' }} />
         <Typography variant="h6" fontWeight={700}>
-          TodoApp
+          ToDoTaskApp
         </Typography>
       </Toolbar>
       <Divider />
@@ -87,7 +87,7 @@ function MainLayout({ children }) {
           )}
           <TaskAltIcon sx={{ mr: 1 }} />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} fontWeight={700}>
-            TodoApp
+            ToDoTaskApp
           </Typography>
           {user && (
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
