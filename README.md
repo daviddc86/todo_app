@@ -61,19 +61,6 @@ Las rutas protegidas redirigen a `/login` si no hay token en localStorage.
 4. Añade la variable de entorno `VITE_API_URL` apuntando a tu backend desplegado
 5. Deploy
 
-### Netlify
-
-1. Crea cuenta en [netlify.com](https://netlify.com)
-2. New site from Git → conecta tu repositorio
-3. **Build command**: `npm run build`
-4. **Publish directory**: `dist`
-5. En Site settings → Environment variables añade `VITE_API_URL`
-6. Crea el archivo `public/_redirects` con:
-   ```
-   /* /index.html 200
-   ```
-   (Necesario para que React Router funcione correctamente en Netlify)
-
 ## Subir a GitHub
 
 ```bash
