@@ -21,7 +21,12 @@ const theme = createTheme({
     borderRadius: 8,
   },
   components: {
-    // Ejemplos de overrides globales — modifica/añade aquí tus cambios de CSS.
+    MuiOutlinedInput: {
+      defaultProps: { notched: true },
+    },
+    MuiTextField: {
+      defaultProps: { InputLabelProps: { shrink: true } },
+    },
     MuiAppBar: {
       styleOverrides: {
         root: {
